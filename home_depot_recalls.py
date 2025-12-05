@@ -116,7 +116,7 @@ Given the severe class imbalance in the target variable, we will use resampling 
 First, let's install `imblearn`.
 """
 
-!pip install imblearn
+
 
 """Now, we will apply resampling. We'll use `SMOTE` for oversampling the minority classes and `RandomUnderSampler` for undersampling the majority class. It's crucial to apply resampling *after* splitting the data into training and testing sets, and only to the *training set* to prevent data leakage."""
 
